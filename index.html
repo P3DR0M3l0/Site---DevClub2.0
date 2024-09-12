@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Imagem/Pc_Gamer-icon.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>DevClub2.0</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <!---navigation-->
+    <nav>
+        <a href="#" class="logo">Pedro de Melo</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navlist">
+            <li><a href="#">Ínicio</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="https://www.linkedin.com/in/pedro-de-melo-9a0075292/" target="_blank">Serviços</a></li>
+            <li><a href="https://www.linkedin.com/in/pedro-de-melo-9a0075292/" target="_blank">Blog</a></li>
+            <li><a href="https://www.linkedin.com/in/pedro-de-melo-9a0075292/" target="_blank">Contato</a></li>
+        </ul>
+
+        <a href="#" class="btn">Botão</a>
+    </nav>
+
+    <!---Hero-->
+    <section class="hero">
+        <div class="main-text">
+            <h1 class="zoom-in">DevClub, o lugar perfeito para um dev</h1>
+            <p>Usando apenas HTML, CSS3 & Javascript</p>
+        </div>
+
+    </section>
+
+    <a href="#" class="ctaa"><i class="ri-play-fill"></i></a>
+
+    <!---js link-->
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let menu = document.querySelector('#menu-icon');
+        let navlist = document.querySelector('.navlist');
+
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open');
+        };
+    </script>
+</body>
+
+</html>
